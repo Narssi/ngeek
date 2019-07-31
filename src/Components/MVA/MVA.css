@@ -1,0 +1,59 @@
+/***********************
+CSS Microsoft
+*/
+
+.Microsoft {
+    font-family: 'Quicksand', sans-serif;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .Microsoft h1{
+    text-align: center;
+    color: rgb(170, 170, 170);
+  }
+
+  .PartDe, .PartIz{
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .PartIz{
+
+    background: -webkit-linear-gradient(120deg, rgb(219, 219, 219), rgb(255, 255, 255), rgb(219, 219, 219));
+    justify-content: flex-end;
+
+  }
+
+  .PartDe{
+    background-image: url('./xbox.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+  }
+
+  @media screen and (max-width: 1200px){
+      .Microsoft{
+          flex-direction: column;
+          
+      }
+
+      .PartDe, .PartIz{
+          width: 100%;
+          height: 50vh;
+          justify-content: center;
+      }
+
+      .PartIz{
+          align-items: flex-end;
+      }
+      .PartDe{
+          align-items: flex-start;
+      }
+  }

@@ -1,0 +1,55 @@
+.Portaf h1, p{
+    font-family: 'Quicksand', sans-serif;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-top: 15px;
+}
+
+.porta{
+  text-align: center;
+  display: flex;
+  min-width: 100vh;
+
+}
+
+
+.Portaf h1{
+    font-size: 3em;
+    text-align: left;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(60deg, rgb(172, 172, 172), rgb(224, 224, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.Portaf p{
+    font-size: 1.9em;
+    text-align: left;
+    background: -webkit-linear-gradient(60deg, rgb(172, 172, 172), rgb(224, 224, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+  .Caja{
+    padding: 90px;
+    background-color: transparent;
+ 
+  }
+
+  .Iphone {
+    width: 110%;
+  }
+
+  .btnP{
+      font-size: 1.7em;
+      color: #fff;
+      text-align: center;
+      background-color: rgb(233, 233, 233);
+      border-radius: 10px;
+  }
