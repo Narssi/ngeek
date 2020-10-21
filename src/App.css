@@ -15,7 +15,8 @@ CSS Header
 
 .App-header {
   background-color: #ffffff;
-  background-image: url('./img/fondo3.jpg');
+  background-image: url('./img/Fond2.png');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
