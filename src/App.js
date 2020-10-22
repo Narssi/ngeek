@@ -10,15 +10,31 @@ import Portafolio from './Components/Portafolio/Portafolio';
 import Habilidades from './Components/Habilidades/Habilidades';
 import Contacto from './Components/Contacto/Contacto';
 import Footer from './Components/Footer/Footer';
+import { Nav, Navbar } from 'react-bootstrap';
 
 
 
 function App() {
   return (
     <div>
+
+    <Navbar bg="light" expand="lg">
+      <Navbar.Brand> NGK </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link>Home</Nav.Link>
+            <Nav.Link>Homes</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+
+        
+     
+    </Navbar>
+
         <div className="App">
             <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
+             
             </header>   
         </div>
 
