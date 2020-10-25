@@ -1,0 +1,19 @@
+.ls{
+    text-align: center;
+}
+
+.fixed-top{
+    min-height: 10%;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+
+button:focus{
+    outline: 0px auto;
+}
+
+.logo{
+    font-size: 40%;
+}

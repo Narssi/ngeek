@@ -1,17 +1,27 @@
 import React from 'react';
 import './Footer.css';
-
+import data from  '../../JSONData/data.json';
 
 
 const Footer = () => {
     return (
     <div className='Footer'>
-        <div  className='corp'>
-            <h1> {new Date().getFullYear()} © Copyright | NGeek Reyes</h1>
-            <p>Version 7.0</p>
-        </div>
+       {
+           data.Footer.map((footer) => {
+               return(
+                <div className = 'Footer'>
+                <div  className='corp'>
+                    <h2>{footer.web}</h2>
+                    <h1>{footer.Register} {new Date().getFullYear()}</h1>
+                    <p>{footer.Version}</p>
+                </div>
+                </div>
+               );
+           })
+       }
     </div>
     );
 };
 
 export default Footer;
+
