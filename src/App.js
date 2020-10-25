@@ -8,42 +8,22 @@ import Contacto from './Pages/Contacto/Contacto';
 import Footer from './Components/Footer/Footer';
 import NBmenu from './Components/NavBar/Navbar';
 import Home from './Pages/Home/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
-      <div>
-        <NBmenu></NBmenu>
-      </div>
-      <div>
-      <Home></Home>
-      </div>
-        <div>
-        <Perfil></Perfil>
-        </div>
-        <div>
-        <Reconocimientos></Reconocimientos>
-        </div>
+    <Router>
+    <div className="App">
+          <NBmenu/>
+          <Switch>
+            <Route  path="/" exact component={Home}/>
 
-        <div>
-        <Portafolio></Portafolio>
+            <Route path="/portafolio" component={Portafolio}/>
+            
+          </Switch>
         </div>
-
-        <div>
-        <Habilidades></Habilidades>
-        </div>
-        
-        <div>
-        <Contacto></Contacto>
-        </div>
-
-        <div>
-          <Footer></Footer>
-        </div>
-    </div>
-
-    
+    </Router>
   );
 }
 

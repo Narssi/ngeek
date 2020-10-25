@@ -17,3 +17,30 @@ button:focus{
 .logo{
     font-size: 40%;
 }
+
+
+.navbar-collapse{
+    overflow: hidden;
+}
+
+link{
+    color: rgba(0,0,0,.5);
+    
+    display: block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+a{
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+    background-color: transparent;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    text-align: left;
+}
+
+a:hover {
+    color: black;
+    text-decoration: transparent;
+}
