@@ -1,16 +1,10 @@
-
-/***********************
-CSS Reconocimientos
-*/
-
-.Reconocimientos {
+.Experiencia {
     text-align: center;
-    background-image: url('../../img/fondo1.jpg');
+    background-color: antiquewhite;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     
   }
-  
   

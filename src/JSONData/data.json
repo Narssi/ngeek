@@ -8,8 +8,10 @@
 
     "Home":[
         {
-            "Welcome" : "Bienvenidos",
-            "NgeekReyes" : "NgeekReyes"
+            "Tittle1" : "Creative Designer",
+            "Tittle2" : "Developer",
+            "subtittle": "by",
+            "Ngeek": "Narciso Reyes"
             
         }
     ],

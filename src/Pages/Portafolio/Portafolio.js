@@ -13,7 +13,7 @@ const Portafolio = () => {
     return (
     <div className='Portaf'>
         
-        <Container className='Caja'>
+        <Container className='portafolio' id="portafolio">
             <Row>
                 <Col sm={6}>
                 <h1>Portafolio</h1>

@@ -6,8 +6,7 @@ import './Contacto.css'
 
 const Contacto = () => {
     return(
-        <div className='Contact'>
-
+        <div className='Contacto'>
             <div className="row">
                 <div className="col-sm-6 Redes">
                 <h1>Sigueme en mis<br></br> Redes Sociales</h1>

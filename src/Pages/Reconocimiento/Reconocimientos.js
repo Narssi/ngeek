@@ -2,7 +2,7 @@ import React from 'react';
 import './Reconocimientos.css';
 
 const Reconocimientos = () => (
-    <div className='diplomas'>
+    <div className='Reconocimientos'>
         <h1>Reconocimientos</h1>
     </div>
 );
