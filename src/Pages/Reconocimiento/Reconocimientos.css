@@ -9,8 +9,44 @@ CSS Reconocimientos
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: auto;
     
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item2 {
+    background: tomato;
+    padding: 5px;
+    width: 340px;
+    height: 560px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px)  {
+    
+  .flex-item2 {
+    background: tomato;
+    padding: 5px;
+    width: 425px;
+    height: 560px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
   }
   
   
