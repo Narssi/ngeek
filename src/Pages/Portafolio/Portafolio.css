@@ -3,6 +3,12 @@
   height: auto;
 }
 
+.demo{
+  width: 100%;
+  margin: auto;
+  padding: 5em;
+  margin-top: -100px;
+}
 
 .bd{
   display: flex;
@@ -19,14 +25,14 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 726px;
-  width: 525px;
+  width: 40vw;
   border-radius: 65px;
 }
 
 .demo2{
   background-color: rgb(231, 231, 231);
   height: 341px;
-  width: 525px;
+  width: 40vw;
   border-radius: 65px;
 }
 
@@ -36,17 +42,17 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 726px;
-  width: 525px;
+  width: 40vw;
   border-radius: 65px;
-  margin-top: -668px;
+  margin-top: -350px;
 }
 
 .demo4{
   background-color: rgb(231, 231, 231);
   height: 341px;
-  width: 525px;
+  width: 40vw;
   border-radius: 65px;
-  margin-top: -285px;
+  margin-top: 30px;
 }
 
 

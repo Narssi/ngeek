@@ -15,16 +15,16 @@ const Portafolio = () => {
     return (
     <div className='portafolio'>
 
-
-    <div className="bd">
-        <div className="demo1">demo1</div>
-        <div className="demo2">demo1</div>
-
-    </div>
-    <div className="bd">
-        <div className="demo4">demo1</div>
-        <div className="demo3">demo1</div>
-    </div>
+        <div className="demo">
+            <Row >
+                    <Col> <div className="demo1">demo1</div></Col>
+                    <Col> <div className="demo2">demo1</div></Col>
+                </Row>
+                <Row >
+                    <Col> <div className="demo4">demo1</div></Col>
+                    <Col> <div className="demo3">demo1</div></Col>
+                </Row>
+        </div>
     </div>
     
 );
