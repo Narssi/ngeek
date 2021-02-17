@@ -1,36 +1,28 @@
 .Experiencia {
     text-align: center;
-    background-color: antiquewhite;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
     
   }
 
 
+  .Experiencia h1 {
+    font-size: 3.5em;
+   
+  }
+
+
+
   .flex-container {
-    /* We first create a flex layout context */
     display: flex;
-    
-    /* Then we define the flow direction 
-       and if we allow the items to wrap 
-     * Remember this is the same as:
-     * flex-direction: row;
-     * flex-wrap: wrap;
-     */
     flex-flow: row wrap;
-    
-    /* Then we define how is distributed the remaining space */
-    justify-content: space-around;
-    
+    justify-content: space-around; 
     padding: 0;
     margin: 0;
     list-style: none;
   }
   
   .flex-item4 {
-    background: white;
+    background: #E9EEF6;
     padding: 5px;
     width: 200px;
     height: 150px;
@@ -40,5 +32,30 @@
     font-weight: bold;
     font-size: 3em;
     text-align: center;
+
   }
   
+
+    
+  .flex-item3 {
+    background: #E9EEF6;
+    padding: 5px;
+    width: 253px;
+    height: 273px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 65px;
+  }
+  
+
+  .flex-item3 p{
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .dl{
+    padding: 1em;
+  }

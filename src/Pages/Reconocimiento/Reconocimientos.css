@@ -52,3 +52,13 @@ button{
   border: 0px solid;
   color: white;
 }
+
+.st{
+  width: 40%;
+  margin-left: 25%;
+  border-radius: 20px;
+  background-color: white;
+  height: 7px;
+  bottom: 30px;
+  position: absolute;
+}

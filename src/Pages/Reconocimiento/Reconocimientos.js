@@ -13,18 +13,21 @@ const Reconocimientos = () => (
                     <h1>CURSOS</h1>
                     <button>VIEW +</button>
                   </div>
+                  <div className="st"></div>
                 </Col>
                 <Col sm className="img2">
-                <div className="Info">
+                  <div className="Info">
                     <h2>Design & Developer</h2>
                     <h1>CURSOS</h1>
                   </div>
+                  <div className="st"></div>
                 </Col>
                 <Col sm className="img3">
                 <div className="Info">
                     <h2>Design & Developer</h2>
                     <h1>CURSOS</h1>
                   </div>
+                  <div className="st"></div>
                 </Col>
             </Row>    
     </div>

@@ -26,18 +26,20 @@
   height: 726px;
   width: 35vw;
   border-radius: 65px;
+  
 }
 
 .demo2{
-  background-color: rgb(245, 245, 245);
+  background: #E9EEF6;
   height: 341px;
   width: 35vw;
   border-radius: 65px;
-  padding: 5em;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 5px rgb(228, 228, 228);
+  -moz-box-shadow: 2px 2px 5px rgb(216, 216, 216);
 }
 
 .demo3{
-  margin-top: -170px;
   background-image: url("../../Assets/Rectangle.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -48,12 +50,13 @@
 }
 
 .demo4{
-  background-color: rgb(245, 245, 245);
+  background: #E9EEF6;
   height: 341px;
   width: 35vw;
   border-radius: 65px;
   margin-top: 30px;
-  padding: 5em;
+  -webkit-box-shadow: 2px 2px 5px rgb(228, 228, 228);
+  -moz-box-shadow: 2px 2px 5px rgb(216, 216, 216);
 }
 
 
@@ -65,21 +68,70 @@
 
 
 .demo4 h2{
-  font-size: 20px;
+  font-size: 1.8em;
 }
 
 
 .demo4 h1{
-  font-size: 40px;
+  font-size: 3em;
 }
 
 .demo2 h2{
-  font-size: 20px;
+  font-size: 2em;
 }
 
 
 .demo2 h1{
-  font-size: 40px;
+  font-size: 3em;
 }
 
+.xx{
+  padding: 5em;
+}
 
+@media  (max-width: 575.98px) { 
+
+  .demo{
+    width: 84%;
+    margin: auto;
+   
+  }
+  
+
+  .demo1{
+    height: 726px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 200px;
+  }
+  
+  .demo2{
+    height: 300px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: -1046px;
+  }
+
+  .demo3{
+    height: 726px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 36px;
+  }
+  
+  .demo4{
+    
+    height: 341px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 30px;
+
+  }
+
+
+.xx{
+  padding: 3em;
+}
+  
+
+ }

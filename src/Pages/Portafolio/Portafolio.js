@@ -20,17 +20,21 @@ const Portafolio = () => {
                     <Col> <div className="demo1"></div></Col>
                     <Col> 
                         <div className="demo2">
-                            <h2>Ultimate Design</h2>
-                            <h1>ACOMER CLUB</h1>
+                            <div className="xx">
+                                <h2>Ultimate Design</h2>
+                                <h1>ACOMER CLUB</h1>
+                            </div>
                         </div>
                     </Col>
                 </Row>
                 <Row >
                     <Col>
                         <div className="demo4">
-                                <h2>Design & Developer</h2>
+                            <div className="xx">
+                            <h2>Design & Developer</h2>
                                 <h1>PORTAFOLIO</h1>
                                 <button>VIEW +</button>
+                            </div>
                         </div>
                     </Col>
                     <Col> <div className="demo3">demo1</div></Col>

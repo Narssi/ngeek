@@ -23,6 +23,7 @@ class App extends Component {
     <Experiencia/>
     <Habilidades/>
     <Contacto/>
+    <Footer/>
     </div>
   );
  }

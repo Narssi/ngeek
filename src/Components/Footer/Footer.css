@@ -30,3 +30,12 @@ CSS Footer
     padding-bottom: 20px;
     text-align: center;
   }
+
+  .Footer h1{
+    font-size: 1.5rem;
+}
+
+.lss{
+  background-color: #ECF0F8;
+  height: 43px;
+}
