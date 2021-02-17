@@ -6,6 +6,10 @@ CSS Reconocimientos
   font-size: 3rem;
 }
 
+.Reconocimientos{
+  margin-top: 60px;
+}
+
 .img1{
   background-image: url("../../Assets/1s.jpg");
   background-position: center;
