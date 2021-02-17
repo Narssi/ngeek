@@ -4,9 +4,9 @@
 }
 
 .demo{
-  width: 100%;
+  width: 90%;
   margin: auto;
-  padding: 5em;
+  padding: 7em;
   margin-top: -100px;
 }
 
@@ -25,14 +25,14 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 726px;
-  width: 40vw;
+  width: 35vw;
   border-radius: 65px;
 }
 
 .demo2{
   background-color: rgb(231, 231, 231);
   height: 341px;
-  width: 40vw;
+  width: 35vw;
   border-radius: 65px;
 }
 
@@ -42,7 +42,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 726px;
-  width: 40vw;
+  width: 35vw;
   border-radius: 65px;
   margin-top: -350px;
 }
@@ -50,7 +50,7 @@
 .demo4{
   background-color: rgb(231, 231, 231);
   height: 341px;
-  width: 40vw;
+  width: 35vw;
   border-radius: 65px;
   margin-top: 30px;
 }
