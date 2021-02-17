@@ -18,24 +18,31 @@ const Portafolio = () => {
         <ul className="flex-container">
             <li className="flex-item1">
             <div className="d-flex flex-column">
-                <div className="p-2 nx">Flex item 1</div>          
+                <div className="p-2 nx"></div>          
             </div>
             </li>
             <li className="flex-item">
             <div className="d-flex flex-column">
-                <div className="p-2">Flex item 2</div>
+                <div className="p-2">
+                    <p>Ultimate Design</p>
+                    <p>ACOMER CLUB</p>
+                </div>
             </div>
             </li>
         </ul>
         <ul className="flex-container">
             <li className="flex-item de">
             <div className="d-flex flex-column">
-                <div className="p-2">Flex item 3</div>          
+                <div className="p-2">
+                    <p>Design & Developer</p>
+                    <p>PORTAFOLIO</p>
+                    <button>VER +</button>
+                </div>          
             </div>
             </li>
             <li className="flex-item1 des">
                 <div className="d-flex flex-column">
-                    <div className="p-2 nx">Flex item 4</div>
+                    <div className="p-2 nx"></div>
                 </div>
             </li>
         </ul>

@@ -5,11 +5,12 @@ CSS Header
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  background-color: #F7F9FF;
 }
 
 .App-header {
   background-color: #ffffff;
-  background-image: url('./img/Fond2.png');
+  background-image: url('./img/Background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,9 +22,6 @@ CSS Header
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {

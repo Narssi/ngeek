@@ -8,7 +8,7 @@ CSS Footer
 }
 
 
-  .Footer h1,h2, p{
+  .Footer {
     font-family: 'Quicksand', sans-serif;
     margin-inline-start: 0px;
     margin-inline-end: 0px;

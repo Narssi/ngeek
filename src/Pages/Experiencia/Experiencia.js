@@ -7,7 +7,22 @@ const Experiencia = () => {
         <div className="Experiencia">
                 <h1>Experiencia</h1>
 
-                <p>holamundodlhaskdjsah</p>
+                <div>
+                    <ul class="flex-container">
+                        <li class="flex-item4">1</li>
+                        <li class="flex-item4">2</li>
+                    </ul>
+               </div>
+                
+               <div>
+                <ul class="flex-container">
+                    <li class="flex-item4">1</li>
+                    <li class="flex-item4">2</li>
+                    <li class="flex-item4">3</li>
+                    <li class="flex-item4">3</li>
+                </ul>
+               </div>
+                
         </div>
     );
 };  
