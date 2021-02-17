@@ -6,13 +6,12 @@
 
 .bd{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  width: 87%;
-  margin: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    padding: 10em;
+    margin: auto;
 }
 
 .demo1{
@@ -25,7 +24,7 @@
 }
 
 .demo2{
-  background-color: black;
+  background-color: rgb(231, 231, 231);
   height: 341px;
   width: 525px;
   border-radius: 65px;
@@ -39,15 +38,15 @@
   height: 726px;
   width: 525px;
   border-radius: 65px;
-  margin-top: -348px;
+  margin-top: -668px;
 }
 
 .demo4{
-  background-color: black;
+  background-color: rgb(231, 231, 231);
   height: 341px;
   width: 525px;
   border-radius: 65px;
-  margin-top: 30px;
+  margin-top: -285px;
 }
 
 
