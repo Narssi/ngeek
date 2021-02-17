@@ -2,51 +2,49 @@
 /***********************
 CSS Reconocimientos
 */
+.Reconocimientos h1{
+  font-size: 3rem;
+}
 
-.Reconocimientos {
-    text-align: center;
-    background-image: url('../../img/fondo1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .flex-item2 {
-    background: tomato;
-    padding: 5px;
-    width: 340px;
-    height: 560px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
+.img1{
+  background-image: url("../../Assets/1s.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 567px;
+}
 
-  @media screen and (min-width: 1200px)  {
-    
-  .flex-item2 {
-    background: tomato;
-    padding: 5px;
-    width: 425px;
-    height: 560px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-  }
+.img2{
+  background-image: url("../../Assets/2s.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 567px;
+}
+
+.img3{
+  background-image: url("../../Assets/3s.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 567px;
+}
+
+
+.row{
+  margin-right: 0px;
+    margin-left: 0px;
+}
   
-  
+.Info{
+  margin-top: 25vh;
+}
+
+button{
+  background-color: black;
+  border-radius: 17px;
+  width: 196px;
+  height: 57px;
+  border: 0px solid;
+  color: white;
+}

@@ -1,13 +1,32 @@
 import React from 'react';
-import './Reconocimientos.css';
+import './Reconocimientos.css'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Reconocimientos = () => (
     <div className='Reconocimientos'>
-        <ul class="flex-container">
-        <li class="flex-item2">1</li>
-        <li class="flex-item2">2</li>
-        <li class="flex-item2">3</li>
-        </ul>
+            <Row >
+                <Col sm className="img1">
+                  <div className="Info">
+                    <h2>Design & Developer</h2>
+                    <h1>CURSOS</h1>
+                    <button>VIEW +</button>
+                  </div>
+                </Col>
+                <Col sm className="img2">
+                <div className="Info">
+                    <h2>Design & Developer</h2>
+                    <h1>CURSOS</h1>
+                  </div>
+                </Col>
+                <Col sm className="img3">
+                <div className="Info">
+                    <h2>Design & Developer</h2>
+                    <h1>CURSOS</h1>
+                  </div>
+                </Col>
+            </Row>    
     </div>
 );
 
