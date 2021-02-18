@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Navbar.css';
+import ngk from '../../Assets/NGK.svg';
 import { Link } from 'react-scroll';
 
 
@@ -15,13 +16,14 @@ class Navbar extends Component {
         return(
           <div>
             <nav className="NavBaritems">
-              
+            <img src={ngk} className="rounded float-left lk"  alt="lk"></img>
 
                 <div className="menu-icon" onClick={this.handleClick}>
                 <i className={this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>
                  </div>
 
                 <ul  className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
+               
                 <li>
                 <Link
                 activeClass = "active"
