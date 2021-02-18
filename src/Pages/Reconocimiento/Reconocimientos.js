@@ -3,6 +3,7 @@ import './Reconocimientos.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 
 const Reconocimientos = () => (
     <div className='Reconocimientos'>
@@ -11,7 +12,7 @@ const Reconocimientos = () => (
                   <div className="Info">
                     <h2>Design & Developer</h2>
                     <h1>CURSOS</h1>
-                    <button>VIEW +</button>
+                    <Link to="/diplomas"><button>VIEW +</button></Link>
                   </div>
                   <div className="st"></div>
                 </Col>

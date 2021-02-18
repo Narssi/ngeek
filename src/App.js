@@ -1,32 +1,27 @@
 import React, {Component} from 'react';
 import './App.css';
-import Perfil from './Pages/Perfil/Perfil';
-import Reconocimientos from './Pages/Reconocimiento/Reconocimientos';
-import Portafolio from './Pages/Portafolio/Portafolio';
-import Habilidades from './Pages/Habilidades/Habilidades';
-import Contacto from './Pages/Contacto/Contacto';
-import Footer from './Components/Footer/Footer';
+import PortList from './Pages/Portafolio/PArchive/PortList';
+import AppRouter  from './routes/AppRouter';
+import Diplomas from './Pages/Reconocimiento/diplomas/Diplomas';
 import NBmenu from './Components/NavBar/Navbar';
-import Home from './Pages/Home/Home';
-import Experiencia from './Pages/Experiencia/Experiencia';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
  render(){
   return (
-   
-    <div className="App">
-     <NBmenu/>
-    <Home/>
-    <Portafolio/>
-    <Reconocimientos/>
-    <Experiencia/>
-    <Habilidades/>
-    <Contacto/>
-    <Footer/>
-    </div>
+    <Router>
+    
+     <div className="App">
+     <Switch>
+        <Route path="/" exact component={AppRouter}></Route>
+        <Route path="/portlist" component={PortList}></Route>
+        <Route path="/diplomas" component={Diplomas}></Route>
+      </Switch>
+     </div>
+    </Router>
   );
  }
+ 
 }
 
 export default App;

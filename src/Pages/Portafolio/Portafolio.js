@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import './Portafolio.css';
 
 import Buttom from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 
 
@@ -33,7 +34,7 @@ const Portafolio = () => {
                             <div className="xx">
                             <h2>Design & Developer</h2>
                                 <h1>PORTAFOLIO</h1>
-                                <button>VIEW +</button>
+                                <Link className="ruta" to="/portlist"><button>VIEW +</button></Link>
                             </div>
                         </div>
                     </Col>
