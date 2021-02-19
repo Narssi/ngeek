@@ -7,19 +7,14 @@
     cursor: pointer;
     position: fixed;
     display: flex;
-    opacity: 50%;
+    opacity: 49%;
     justify-content: center;
     z-index: 1;
 
 }
-
 .navBar-logo h1{
- 
-    
     font-size: 1vw;
 }
-
-
 
 
   .nav-menu{

@@ -1,51 +1,29 @@
 import React from 'react';
 import './Experiencia.css';
-
-
+import Carousel from 'react-bootstrap/Carousel';
+import {ExperienceTarget} from '../../Components/Experience-target/experience-target';
 const Experiencia = () => {
     return (
         <div className="Experiencia">
                 <div className="tittle">
-                    <h1>Experiencia Profesional</h1>
-                    <h2>Trabajos</h2>
+                    <h1>Trabajos</h1>
+                    <h2>Experiencia Profesional</h2>
+                    
                 </div>
-
-                <div>
-                    <ul className="flex-container">
-                        <li className="flex-item4">1</li>
-                        <li className="flex-item4">2</li>
-                    </ul>
+                <div className="carrusel">
+                <Carousel>
+                    <Carousel.Item interval={2000} className="demos">    
+                    </Carousel.Item>
+                    <Carousel.Item className="demos">
+                    </Carousel.Item>
+                    <Carousel.Item className="demos">
+                    </Carousel.Item>
+                    </Carousel>
                </div>
+               
+                <ExperienceTarget/>
                 
-               <div>
-                <ul className="flex-container">
-                    <li className="flex-item3">
-                       <div className="dl">
-                       <img src={require ('../../Assets/6.svg')}/>
-                        <p>Experiencia Profesional</p>
-                       </div>
-                    </li>
-                    <li className="flex-item3">
-                        <div className="dl">
-                            <img src={require ('../../Assets/corazon.svg')}/>
-                            <p>Apasionado</p>
-                        </div>
-                    </li>
-                    <li className="flex-item3">
-                        <div className="dl">
-                             <img src={require ('../../Assets/auto.svg')}/>
-                            <p>Autodidacta</p>
-                        </div>
-                    </li>
-                    <li className="flex-item3">
-                    <div className="dl">
-                        <img src={require ('../../Assets/team.svg')}/>
-                        <p>Trabajo en Equipo</p>
-                    </div>
-                    </li>
-                </ul>
-               </div>
-                
+               
         </div>
     );
 };  

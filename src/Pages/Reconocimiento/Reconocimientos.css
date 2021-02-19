@@ -10,24 +10,7 @@ CSS Reconocimientos
   margin-top: 60px;
 }
 
-.img1{
-  background-image: url("../../Assets/1s.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 567px;
-}
-
-.img2{
-  background-image: url("../../Assets/2s.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 567px;
-}
-
-.img3{
-  background-image: url("../../Assets/3s.jpg");
+.setting{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +24,18 @@ CSS Reconocimientos
 }
   
 .Info{
-  margin-top: 25vh;
+  
+  height: 567px;
+  color: white;
+  opacity: 0.9;
+  height: auto;
+  padding: 2em;
+  border-radius: 20px;
+}
+
+.Info h1{
+  color: white;
+  margin-top: 15vh;
 }
 
 button{
@@ -52,6 +46,17 @@ button{
   border: 0px solid;
   color: white;
 }
+
+.dd{
+  font-size: 30px;
+  border-radius: 17px;
+  border: 0px solid;
+  color: white;
+  margin: auto;
+  margin-top: 90px;
+  
+}
+
 
 .st{
   width: 40%;

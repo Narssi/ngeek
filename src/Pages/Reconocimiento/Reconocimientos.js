@@ -1,36 +1,27 @@
 import React from 'react';
 import './Reconocimientos.css'
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import {DiplomasData} from '../../Data/diplomas';
 
 const Reconocimientos = () => (
     <div className='Reconocimientos'>
-            <Row >
-                <Col sm className="img1">
-                  <div className="Info">
-                    <h2>Design & Developer</h2>
-                    <h1>CURSOS</h1>
-                    <Link to="/diplomas"><button>VIEW +</button></Link>
-                  </div>
-                  <div className="st"></div>
+      <Row>
+        {DiplomasData.map((diplom, key) =>{
+            return(
+                <Col sm className="setting" key={key} style={{backgroundImage:`url(${diplom.picture})`}}>
+                    <div className="Info" >
+                        <h1>{diplom.text}</h1>
+                        <h2>{diplom.text2}</h2>
+                        <Link to="/diplomas"><div className="dd" style={{backgroundColor:'black', width:'196px'}}>{diplom.button}</div></Link>
+                    </div>
+                    <div className="st"></div>
                 </Col>
-                <Col sm className="img2">
-                  <div className="Info">
-                    <h2>Design & Developer</h2>
-                    <h1>CURSOS</h1>
-                  </div>
-                  <div className="st"></div>
-                </Col>
-                <Col sm className="img3">
-                <div className="Info">
-                    <h2>Design & Developer</h2>
-                    <h1>CURSOS</h1>
-                  </div>
-                  <div className="st"></div>
-                </Col>
-            </Row>    
+            );
+        })} 
+      </Row>
+     
     </div>
 );
 

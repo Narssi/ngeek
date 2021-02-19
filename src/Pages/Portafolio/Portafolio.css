@@ -9,8 +9,6 @@
  
 }
 
-
-
 Link{
   background-color: black;
   width: 200px;
@@ -28,29 +26,29 @@ Link{
 }
 
 .demo1{
-  background-image: url("../../Assets/Rectangle.jpg");
+  background-image: url("../../Assets/demo.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 726px;
   width: 35vw;
-  border-radius: 65px;
-  
+  border-radius: 65px; 
 }
 
 .demo2{
-  background: #E9EEF6;
+  background: #ffffff;
   height: 341px;
   width: 35vw;
   border-radius: 65px;
   text-align: center;
-  -webkit-box-shadow: 2px 2px 5px rgb(228, 228, 228);
-  -moz-box-shadow: 2px 2px 5px rgb(216, 216, 216);
+ 
 }
 
 .demo3{
   background-image: url("../../Assets/Rectangle.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 726px;
   width: 35vw;
   border-radius: 65px;
@@ -58,13 +56,11 @@ Link{
 }
 
 .demo4{
-  background: #E9EEF6;
+  background: #ffffff;
   height: 341px;
   width: 35vw;
   border-radius: 65px;
   margin-top: 30px;
-  -webkit-box-shadow: 2px 2px 5px rgb(228, 228, 228);
-  -moz-box-shadow: 2px 2px 5px rgb(216, 216, 216);
 }
 
 
@@ -102,9 +98,7 @@ Link{
   .demo{
     width: 84%;
     margin: auto;
-   
   }
-  
 
   .demo1{
     height: 726px;
@@ -133,10 +127,8 @@ Link{
     width: 77vw;
     border-radius: 65px;
     margin-top: 30px;
-
   }
-
-
+  
 .xx{
   padding: 3em;
 }

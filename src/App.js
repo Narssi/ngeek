@@ -3,7 +3,6 @@ import './App.css';
 import PortList from './Pages/Portafolio/PArchive/PortList';
 import AppRouter  from './routes/AppRouter';
 import Diplomas from './Pages/Reconocimiento/diplomas/Diplomas';
-import NBmenu from './Components/NavBar/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
