@@ -2,7 +2,7 @@ import React from 'react';
 import './Reconocimientos.css'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import {DiplomasData} from '../../Data/data-cursos';
 
 const Reconocimientos = () => (

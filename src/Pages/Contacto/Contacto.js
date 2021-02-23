@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contacto.css';
-import {ContactData} from '../../Data/data-contact';
+//import {ContactData} from '../../Data/data-contact';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FooterImg } from "../../Data/data-footer";
