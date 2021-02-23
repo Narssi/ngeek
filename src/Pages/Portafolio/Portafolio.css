@@ -1,31 +1,12 @@
 
-.portafolio{
-  height: auto;
-}
 
-.demo{
+.portafolio{
   width: 77%;
   margin: auto;
  
 }
 
-Link{
-  background-color: black;
-  width: 200px;
-  height: 51px;
-}
-
-.bd{
-  display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    list-style: none;
-    width: 90%;
-    padding: 10em;
-    margin: auto;
-}
-
-.demo1{
+.card-img{
   background-image: url("../../Assets/demo.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -35,16 +16,19 @@ Link{
   border-radius: 65px; 
 }
 
-.demo2{
+.txtcol{
   background: #ffffff;
   height: 341px;
   width: 35vw;
   border-radius: 65px;
   text-align: center;
+  -webkit-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  -moz-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  box-shadow: 2px 2px 5px rgb(201, 201, 201);
  
 }
 
-.demo3{
+.card-img2{
   background-image: url("../../Assets/Rectangle.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -55,12 +39,15 @@ Link{
   margin-top: -350px;
 }
 
-.demo4{
+.txtcol2{
   background: #ffffff;
   height: 341px;
   width: 35vw;
   border-radius: 65px;
   margin-top: 30px;
+  -webkit-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  -moz-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  box-shadow: 2px 2px 5px rgb(201, 201, 201);
 }
 
 
@@ -70,51 +57,36 @@ Link{
   margin: auto;
 }
 
-
-.demo4 h2{
-  font-size: 1.8em;
-}
-
-
-.demo4 h1{
-  font-size: 3em;
-}
-
-.demo2 h2{
-  font-size: 2em;
-}
-
-
-.demo2 h1{
-  font-size: 3em;
-}
-
-.xx{
-  padding: 5em;
-}
-
 @media  (max-width: 575.98px) { 
 
-  .demo{
+  .portafolio{
     width: 84%;
     margin: auto;
   }
 
-  .demo1{
+  .gdimg{
     height: 726px;
     width: 77vw;
     border-radius: 65px;
     margin-top: 200px;
   }
   
-  .demo2{
+  .txtcol{
     height: 300px;
     width: 77vw;
     border-radius: 65px;
     margin-top: -1046px;
   }
 
-  .demo3{
+  .txtcol2{
+    background: #ffffff;
+    height: 341px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 30px;
+  }
+
+  .gdimg2{
     height: 726px;
     width: 77vw;
     border-radius: 65px;
@@ -122,16 +94,10 @@ Link{
   }
   
   .demo4{
-    
     height: 341px;
     width: 77vw;
     border-radius: 65px;
     margin-top: 30px;
   }
-  
-.xx{
-  padding: 3em;
-}
-  
 
  }
