@@ -1,28 +1,42 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Portafolio.css';
-import Iphone from './Iphone.png';
-import Buttom from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+
 
 
 
 const Portafolio = () => {
     
     return (
-    <div className='Portaf'>
-        
-        <Container className='Caja'>
-            <Row>
-                <Col sm={6}>
-                <h1>Portafolio</h1>
-                <p>Desarrollo Web, Desarrollo Movil<br></br>UIUX</p>
-                <Buttom className='btnP' variant='light'>Proximamente</Buttom>
+    <div className='portafolio'>
+
+        <div className="demo">
+            <Row >
+                <Col><div className="demo1"></div></Col>
+                <Col> 
+                    <div className="demo2">
+                        <div className="xx">
+                            <h2>Ultimate Design</h2>
+                            <h1>ACOMER CLUB</h1>
+                        </div>
+                    </div>
                 </Col>
-                <Col sm={6}><img src={Iphone} className="Iphone" alt="Iphone" /></Col>
             </Row>
-        </Container>
+                <Row >
+                    <Col>
+                        <div className="demo4">
+                            <div className="xx">
+                            <h2>Design & Developer</h2>
+                                <h1>PORTAFOLIO</h1>
+                                <Link className="ruta" to="/portlist"><button>VIEW +</button></Link>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col> <div className="demo3"></div></Col>
+                </Row>
+        </div>
     </div>
     
 );

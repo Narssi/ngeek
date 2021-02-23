@@ -1,30 +1,91 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Navbar.css';
-import { Nav, Navbar, Grid, Row, Col } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import ngk from '../../Assets/NGK.svg';
+import { Link } from 'react-scroll';
 
 
+class Navbar extends Component {
+    state = { clicked : false};
 
-const NBmenu = () => {
-    return (
-        <div>
-           <Navbar  bg="light" fixed="top" expand="lg">
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Brand href="/" class="logo">NGK</Navbar.Brand>
-                <Navbar.Collapse id="basic-navbar-nav">
-                
-                <Nav className = "mx-auto parent">
-                    <Link to="/">Inicio</Link>
-                    <Link>Reconocimientos</Link>
-                    <Link to="/portafolio">Portafolio</Link>
-                    <Link>Experiencias</Link>
-                    <Link>Contacto</Link>
-                </Nav>
-                </Navbar.Collapse> 
-                
-            </Navbar>
-       </div>
-    );
-};
+    handleClick =() => {
+        this.setState({clicked: !this.state.clicked});
+    }
 
-export default NBmenu;
+
+    render(){
+        return(
+          <div>
+            <nav className="NavBaritems">
+                <img src={ngk} className="rounded float-left lk"  alt="lk"></img>
+                <div className="menu-icon" onClick={this.handleClick}>
+                 <i className={this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>
+                </div>
+                <ul  className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
+                  <li>
+                  <Link
+                  activeClass = "active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  onClick={this.handleClick}
+                  duration= {1500}
+                  to="App-header">Inicio</Link>
+                  </li>
+                  <li>
+                  <Link
+                  activeClass = "active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  onClick={this.handleClick}
+                  duration= {1500}
+                  to="portafolio">Portafolio</Link>
+                  </li>
+                  <li>
+                  <Link
+                  activeClass = "active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  onClick={this.handleClick}
+                  duration= {1500}
+                  to="Reconocimientos">Reconocimientos</Link>
+                  </li>
+                  <li>
+                  <Link
+                  activeClass = "active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {1500}
+                  onClick={this.handleClick}
+                  to="Experiencia">Experiencias</Link>
+                  </li>
+                  <li>
+                  <Link
+                  activeClass = "active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {1500}
+                  onClick={this.handleClick}
+                  to="Habilidades">Habilidades</Link>
+                  </li>
+                  <li>
+                  <Link
+                  activeClass = "active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {1500}
+                  onClick={this.handleClick}
+                  to="Contacto">Contacto</Link>
+                  </li>
+                </ul>
+            </nav> 
+          </div>
+        );
+    }
+}
+
+export default Navbar;

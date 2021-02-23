@@ -1,42 +1,18 @@
-.Contact .row{
-    background-color: #FFE7E7;
+.Contacto{
+    
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-block-start: 0px;
     margin-block-end: 0px;
     display: flex;
-    min-height: 20vh;
- 
-  }
-
-
-  .Redes h1{
-    font-weight: bold;
-    font-size: 1.0em;
-    text-align: center;
-   
-    
-  }
-
-  .Contactame h1{
-    text-align: center;
-    height: 200px;
-    font-size: 1.0em;
-    
-  }
-
-
-  .imagenes{
+    height: 100vh;
     text-align: center;
   }
-  .link {
-    width: 2%;
-    margin-right: 20px;
-  }
-  .git {
-    width: 2%;
-    margin-right: 20px;
-  }
-  .gitlab {
-    width: 2%;
+
+
+
+
+  .Contacto h1{
+    text-align: center;
+    margin: auto;
   }

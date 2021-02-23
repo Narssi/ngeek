@@ -1,0 +1,29 @@
+
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .flex-item3 {
+    background: #E9EEF6;
+    padding: 5px;
+    width: 253px;
+    height: 273px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 65px;
+  }
+  
+
+  .flex-item3 p{
+    font-size: 1.5rem;
+    color: black;
+  }

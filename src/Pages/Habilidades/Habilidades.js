@@ -4,7 +4,7 @@ import './Habilidades.css';
 
 const Habilidades = () => {
     return (
-        <div className="Habilidad">
+        <div className="Habilidades">
                 <h1>Habilidades</h1>
 
                 <p>holamundodlhaskdjsah</p>

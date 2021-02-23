@@ -1,24 +1,28 @@
 import React from 'react';
 import './Footer.css';
-import data from  '../../JSONData/data.json';
-
+import { Data } from "../../Data/data-ngk";
+import { FooterIcon } from './FooterIcon';
 
 const Footer = () => {
     return (
     <div className='Footer'>
-       {
-           data.Footer.map((footer) => {
-               return(
-                <div className = 'Footer'>
-                <div  className='corp'>
-                    <h2>{footer.web}</h2>
-                    <h1>{footer.Register} {new Date().getFullYear()}</h1>
-                    <p>{footer.Version}</p>
+
+        {Data.map((Footer, key) =>{
+            return(
+                <div key={key}>
+                    <div>
+                        <FooterIcon>
+                        </FooterIcon>
+                    </div>
+                    <div  className='corp'>
+                        <h1>{Footer.web}</h1>
+                        <h2>{Footer.Register} {new Date().getFullYear()}</h2>
+                        <p>{Footer.version}</p>
+                    </div>
+                    <div className="lss"></div>
                 </div>
-                </div>
-               );
-           })
-       }
+            );
+        })}
     </div>
     );
 };
