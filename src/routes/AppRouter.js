@@ -18,7 +18,7 @@ class AppRouter extends Component{
         <Portafolio/>
         <Reconocimientos/>
         <Experiencia/>
-        <Habilidades/>
+  
         <Contacto/>
         <Footer/>
         </div>

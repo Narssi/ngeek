@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import './style/body.css';
 import PortList from './Pages/Portafolio/PArchive/PortList';
 import AppRouter  from './routes/AppRouter';
 import Diplomas from './Pages/Reconocimiento/diplomas/Diplomas';

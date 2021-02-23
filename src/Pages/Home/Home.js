@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import '../../style/text.css';
 import { Data } from "../../Data/data-ngk";
 
 
@@ -8,10 +8,10 @@ const Home = () => {
     <div className='App-header'>
         {Data.map((Home, key) => {
             return(
-                <div key ={key}>
+                <div key={key} className="Home">
                     <h1>{Home.Tittle}</h1>
                     <h2>{Home.SubTittle}</h2>
-                    <p>{Home.text}</p>
+                    <h3>{Home.text}</h3>
                     <p>{Home.ngeek}</p>
                 </div>
             );

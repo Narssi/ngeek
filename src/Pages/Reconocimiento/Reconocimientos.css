@@ -2,9 +2,7 @@
 /***********************
 CSS Reconocimientos
 */
-.Reconocimientos h1{
-  font-size: 3rem;
-}
+
 
 .Reconocimientos{
   margin-top: 60px;
@@ -33,10 +31,7 @@ CSS Reconocimientos
   border-radius: 20px;
 }
 
-.Info h1{
-  color: white;
-  margin-top: 15vh;
-}
+
 
 button{
   background-color: black;
@@ -47,15 +42,7 @@ button{
   color: white;
 }
 
-.dd{
-  font-size: 30px;
-  border-radius: 17px;
-  border: 0px solid;
-  color: white;
-  margin: auto;
-  margin-top: 90px;
-  
-}
+
 
 
 .st{
@@ -66,4 +53,11 @@ button{
   height: 7px;
   bottom: 30px;
   position: absolute;
+}
+
+.button-L{
+  border-radius: 17px;
+  border: 0px solid;
+  margin: auto;
+  margin-top: 90px;
 }
