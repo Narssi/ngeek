@@ -1,55 +1,137 @@
-.Portaf h1, p{
-    font-family: 'Quicksand', sans-serif;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    padding-top: 15px;
+
+.portafolio{
+  height: auto;
 }
 
-.porta{
-  text-align: center;
-  display: flex;
-  min-width: 100vh;
-
-}
-
-
-.Portaf h1{
-    font-size: 3em;
-    text-align: left;
-    font-weight: lighter;
-    background: -webkit-linear-gradient(60deg, rgb(172, 172, 172), rgb(224, 224, 224));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-.Portaf p{
-    font-size: 1.9em;
-    text-align: left;
-    background: -webkit-linear-gradient(60deg, rgb(172, 172, 172), rgb(224, 224, 224));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-
-
-  .Caja{
-    padding: 90px;
-    background-color: transparent;
+.demo{
+  width: 77%;
+  margin: auto;
  
+}
+
+Link{
+  background-color: black;
+  width: 200px;
+  height: 51px;
+}
+
+.bd{
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    padding: 10em;
+    margin: auto;
+}
+
+.demo1{
+  background-image: url("../../Assets/demo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 726px;
+  width: 35vw;
+  border-radius: 65px; 
+}
+
+.demo2{
+  background: #ffffff;
+  height: 341px;
+  width: 35vw;
+  border-radius: 65px;
+  text-align: center;
+ 
+}
+
+.demo3{
+  background-image: url("../../Assets/Rectangle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 726px;
+  width: 35vw;
+  border-radius: 65px;
+  margin-top: -350px;
+}
+
+.demo4{
+  background: #ffffff;
+  height: 341px;
+  width: 35vw;
+  border-radius: 65px;
+  margin-top: 30px;
+}
+
+
+.body-t{
+  height: auto;
+  width: 50%;
+  margin: auto;
+}
+
+
+.demo4 h2{
+  font-size: 1.8em;
+}
+
+
+.demo4 h1{
+  font-size: 3em;
+}
+
+.demo2 h2{
+  font-size: 2em;
+}
+
+
+.demo2 h1{
+  font-size: 3em;
+}
+
+.xx{
+  padding: 5em;
+}
+
+@media  (max-width: 575.98px) { 
+
+  .demo{
+    width: 84%;
+    margin: auto;
   }
 
-  .Iphone {
-    width: 110%;
+  .demo1{
+    height: 726px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 200px;
+  }
+  
+  .demo2{
+    height: 300px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: -1046px;
   }
 
-  .btnP{
-      font-size: 1.7em;
-      color: #fff;
-      text-align: center;
-      background-color: rgb(233, 233, 233);
-      border-radius: 10px;
+  .demo3{
+    height: 726px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 36px;
   }
+  
+  .demo4{
+    
+    height: 341px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 30px;
+  }
+  
+.xx{
+  padding: 3em;
+}
+  
+
+ }
