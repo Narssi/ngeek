@@ -1,13 +1,21 @@
 import React from 'react';
 import './Habilidades.css';
-
+import {SkillData} from '../../Data/data-skills';
 
 const Habilidades = () => {
     return (
         <div className="Habilidades">
-                <h1>Habilidades</h1>
-
-                <p>holamundodlhaskdjsah</p>
+               <ul className="flex-container10">
+                {SkillData.map((skill, key) =>{
+                    return(       
+                    <li key={key} className="lex-item9">
+                        <img src={`./assets/experience/${skill.id}.svg`} className="rounded"  alt="img"/>
+                        <p>{skill.Tittle}</p>
+                    </li>
+                    
+                    );
+                })}
+            </ul>   
         </div>
     );
 };  
